@@ -1,4 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background-color: #1D84B5;
+}
+
+.container{
+    text-align: center;
+    background-color: #3C3744;
+    width: 700px;
+    margin: 40px auto;
+    border-radius: 25px;
+    color: #DBDBDB;
+    min-width: 500px;
+    padding: 20px;
+}
+
+header{
+    padding: 20px;
+}
+
+.dataInput{
+    padding: 10px;
+}
+
+input{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input[type="submit"]{
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+}
+input[type="submit"]:hover{
+    background-color: #1D84B5;
+    color: #DBDBDB;
+    cursor: pointer;
+}
+
+.formStyle{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.submitBtn{
+    text-align: center;
+    margin-left: -50px;
+}
+
+footer {
+    margin:15px 0;
+    font-size: smaller;
+}
+
+.result-container{
+    text-align: center;
+    color: #DBDBDB;
+    margin-top: 5%;
+    font-size: 26px;
 }
